@@ -1,0 +1,23 @@
+{
+  "name": "gate.gg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MChrisGM/Gate.gg.git"
+  },
+  "author": "MChrisGM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MChrisGM/Gate.gg/issues"
+  },
+  "homepage": "https://github.com/MChrisGM/Gate.gg#readme",
+  "devDependencies": {
+    "electron": "^22.0.0"
+  }
+}
