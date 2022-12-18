@@ -1,5 +1,5 @@
 class Module{
-    constructor(){
-        
+    constructor(gates){
+        this.gates = gates || [];
     }
 }

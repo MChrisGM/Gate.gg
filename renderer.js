@@ -3,5 +3,8 @@ window.onload = function(){
 }
 
 function main(){
-
+    setup();
+    setInterval(function(){
+        loop();
+    },1);
 }
