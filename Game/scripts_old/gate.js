@@ -19,7 +19,6 @@ class Gate {
             }else{
                 this.state = this.inputs[0].state;
             }
-
         }
         else if (this.type == OR) {
             this.state = false;
