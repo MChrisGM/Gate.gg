@@ -1,6 +1,14 @@
 const AND = 'and';
 const OR = 'or';
 const NOT = 'not';
+const WIRE = 'wire';
+
+let componentType = {
+    [AND]:'gate',
+    [OR]:'gate',
+    [NOT]:'gate',
+    [WIRE]:'wire',
+};
 
 const SWITCH = 'switch';
 const BTN = 'button';
